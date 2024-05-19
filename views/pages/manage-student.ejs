@@ -7,7 +7,7 @@
                 <h4>Manage Student</h4>
             </div>
             <br>
-            <form action="http://localhost:3000/admin/manage-student" method="get">
+            <form action="/admin/manage-student" method="get">
             <div class="Details">
             <div class="sem">
                 <div class="select-menu">
@@ -39,7 +39,7 @@
                         <button type="submit" style="width: 4rem; background: #fff; border: 1px solid black; color: #000; margin-right: 1rem">Get</button>
                     </a>
                     </form>
-                    <form method="get" action="http://localhost:3000/admin/create-student">
+                    <form method="get" action="/admin/create-student">
                         <a class="generate">
                             <button type="submit" style="width: 6rem;">Create</button>
                         </a>
@@ -82,8 +82,8 @@
                             </td>
                             <td>
                                 <div class="manage-but">
-                                    <a href="http://localhost:3000/admin/update-student?id=<%=student._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
-                                    <a href="http://localhost:3000/admin/delete-student?id=<%=student._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
+                                    <a href="/admin/update-student?id=<%=student._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
+                                    <a href="/admin/delete-student?id=<%=student._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
                                 </div>
                             </td>
                         </tr>

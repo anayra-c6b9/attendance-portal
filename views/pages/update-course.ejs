@@ -11,7 +11,7 @@
 <div class="dept">
 <div class="form">
     <div class="Details">
-    <form action="http://localhost:3000/admin/update-course" method="post">
+    <form action="/admin/update-course" method="post">
         <input type="hidden" name="courseId" value="<%=courseInfo._id.toString()%>" >
         <label for="new-course">Course Name:</label>
         <input type="text" id="new-course" name="course" placeholder="Course Name" value="<%=courseInfo.name%>"> 

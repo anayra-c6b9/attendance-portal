@@ -16,7 +16,7 @@
                     </form>
                 </div>
                 <div class="che">
-                    <form class="generate" action="http://localhost:3000/admin/create-course" method="get">
+                    <form class="generate" action="/admin/create-course" method="get">
                         <button type="submit">Create</button>
                     </form>
                 </div>
@@ -42,8 +42,8 @@
                             </td>
                             <td>
                                 <div class="manage-but">
-                                    <a href="http://localhost:3000/admin/update-course?id=<%=course._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
-                                    <a href="http://localhost:3000/admin/delete-course?id=<%=course._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
+                                    <a href="/admin/update-course?id=<%=course._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
+                                    <a href="/admin/delete-course?id=<%=course._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
                                 </div>
                             </td>
                         </tr>

@@ -19,7 +19,7 @@
         </form>
     </div>
     <div class="che">   
-        <a class="generate" href="http://localhost:3000/admin/create-department">
+        <a class="generate" href="/admin/create-department">
             <button type="submit">Create</button>
         </a>
     </div>
@@ -40,8 +40,8 @@
             <td><%=dept.name%> </td>
             <td>
                 <div class="manage-but">
-                    <a href="http://localhost:3000/admin/update-department?id=<%=dept._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
-                    <a href="http://localhost:3000/admin/delete-department?id=<%=dept._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
+                    <a href="/admin/update-department?id=<%=dept._id%>" style="padding: 5px;background-color:rgb(34, 235, 40);border:none ;border-radius:5px;color:white">Edit</a>
+                    <a href="/admin/delete-department?id=<%=dept._id%>" style="padding: 5px;background-color:rgb(244, 16, 16);border:none ;border-radius:5px;color:white">Remove</a>
                 </div>
             </td>
           </tr>
