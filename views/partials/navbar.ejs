@@ -38,7 +38,7 @@
    <% } %>
 </div>
 <div class="signout">
-      <a class="signout-icon" href="<%=(user_role!=='admin') ? 'http://localhost:3000/logout' : 'http://localhost:3000/admin/logout' %>" style="font-size: 20px;">Logout
+      <a class="signout-icon" href="<%=(user_role!=='admin') ? '/logout' : '/admin/logout' %>" style="font-size: 20px;">Logout
       </a>
   </div>
 
