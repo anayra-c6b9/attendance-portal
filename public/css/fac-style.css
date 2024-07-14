@@ -119,6 +119,14 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 420px) {
+  .select-menu {
+    flex-direction: column !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .course {
   font-size: 25px;
   display: flex;
@@ -358,6 +366,9 @@
 .tables {
   display: flex;
   justify-content: center;
+  overflow-x: scroll;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   /* background-color: aqua; */
   table {
     font-family: arial, sans-serif;
